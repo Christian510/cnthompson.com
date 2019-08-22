@@ -1,0 +1,42 @@
+
+
+
+/*Centers the Header Name*/
+#headerName {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;   
+}
+
+/*Centers the navbar links.*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/*Makes the background of the navbar transparent.  Hamberger stays visable*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+
+/*Footer Styling*/
+.fa {
+    color: #161212;
+    margin:0 10px 0 0;
+}
+#icons {
+    /*margin-bottom: 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}

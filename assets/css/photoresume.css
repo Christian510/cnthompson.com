@@ -1,0 +1,27 @@
+
+
+<div id="headerName">
+        <h3>Christian Thompson</h3>
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bbs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Passions</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>

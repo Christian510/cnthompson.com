@@ -1,0 +1,158 @@
+
+body {
+    background: #fff2cc;
+    font-family: 'Cinzel', serif; 
+}
+
+/*Centers the Header Name*/
+#headerName {
+   font-weight: 700;
+   font-size: 1.5em;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;   
+}
+
+/*Centers the navbar links.*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/*Makes the background of the navbar transparent.  Hamberger stays visable*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { 
+    color: #000000; 
+} 
+.bold {
+    font-weight: bold;
+}
+/*End Navbar styling*/
+
+/*Styling of Main Content*/
+#wrapper {
+   padding-bottom: 10px;    
+}
+.right {
+    padding-left: 10px;  
+}
+.left {
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+.padBottom {
+    padding-bottom: 10px;
+    line-height: 1em;
+}
+h4,p {
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 300;
+   font-size: large;
+   text-transform: none;
+}
+h4 {
+    font-size: 1.4em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1.8em;
+}
+p {
+    line-height: 1.2;
+}
+/*End Main Content Styling*/
+
+/*Education*/
+#ed {
+    text-align: right;
+}
+/*End of Education*/
+
+/*Associations & Certificates*/
+#AandC {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#at {
+    color: darkred;
+    text-align: center;
+    font-size: 7em;
+}
+a {
+  color: black;
+}
+a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+#udemy {
+    font-weight: 700;
+}
+/*End Associations & Certificates*/
+
+/*Footer Styling*/
+.fa {
+    color: #161212;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fa:hover {
+    color: darkred;
+}
+#center {
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+/*End Footer Styling*/
+
+/*Media Queries*/
+@media (max-width: 768px) {
+    .left {
+        text-align: left;
+    }
+    #at {
+        display: none;
+    }
+    #headerName {
+        font-size: 1em;
+        text-align: center;
+    }
+    #AandC {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    #at {
+        display: none;
+    }
+    p {
+        line-height: 1em;
+    }
+}
+
+/*For Print*/
+@media print {
+  .container {
+    width: auto;
+    margin: 0,0;
+  }
+  #udemy {
+      font-weight: 300;
+  }
+}

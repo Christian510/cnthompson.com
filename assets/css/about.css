@@ -1,0 +1,133 @@
+/*Welcome!  Please do checkout out my handy work. 
+This is my first website and represents a few months 
+of self directed learning.  For me this is still a work in progress
+as I learn more I will come back to my code and condinue refactor and refine it*/
+
+body {
+    margin: 0;
+    background: #fff2cc;
+    height: 100%;
+    width: 100%;
+    font-family: 'Cinzel', serif; 
+}   
+/*Centers the Header Name*/
+#headerName {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;   
+}
+
+/*Makes the background of the navbar transparent.  Hambeerger stays visable*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+} 
+
+.navbar li { 
+    color: #000;
+} 
+.bold {
+    font-weight: bold;
+}
+/*End Navbar styling*/
+
+/*Main Content Styling*/
+#wrapper {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 40px 0 40px;
+  }
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 20px 20% 50px auto; 
+}
+#aboutMe {
+    border-left: 5px solid darkred;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300; 
+    font-size: 1.2em;
+}
+h2 {
+    font-size: 2.7em;
+}
+p {
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 300;
+   font-size: large;
+   text-transform: none;
+}
+/* #devMtn {
+    color: red;
+} */
+a:hover {
+    text-decoration: none;
+}
+#space {
+    word-spacing: .5em;
+}
+li:active {
+    color: #000;
+    font-weight: bold;
+}
+li:visited {
+    color: #000;
+    font-weight: bold;
+}
+.link {
+    color: black;
+    font-style: italic;
+}
+.link:hover {
+    color: darkred;
+    text-decoration: none;
+}
+/*End Main Content Styling*/
+
+/*Footer Styling*/
+.fa {
+    color: #161212;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fa:hover {
+    color: darkred;
+}
+#center {
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+/*End Footer Styling*/
+
+/*Media queries*/
+@media (min-width: 992px) {
+        
+}
+@media (min-width: 768px) {
+    /*Centers the navbar links.*/
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    img {
+            margin: 25px auto;
+        }
+    #wrapper {
+        padding-bottom: 20px;
+    }
+    #aboutMe {
+        border-left: none;
+    }
+ 
+}
+/*End Media queries*/
