@@ -1,0 +1,15 @@
+/*Footer Styling*/
+.fa {
+    color: #161212;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fa:hover {
+    color: darkred;
+}
+#center {
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+/*End Footer Styling*/

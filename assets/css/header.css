@@ -1,0 +1,40 @@
+body {
+    background: #fff2cc;
+    font-family: 'Cinzel', serif; 
+}
+
+/*Centers the Header Name*/
+#headerName {
+   font-weight: 700;
+   font-size: 1.5em;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;   
+}
+
+/*Centers the navbar links.*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/*Makes the background of the navbar transparent.  Hamberger stays visable*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { 
+    color: #000000; 
+} 
+.bold {
+    font-weight: bold;
+}
+/*End Navbar styling*/
