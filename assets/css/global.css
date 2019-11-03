@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: #fff2cc;
+    height: 100%;
+    width: 100%;
+    font-family: 'Cinzel', serif; 
+}
+
+h4,p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    text-transform: none;
+ }
+ h4 {
+     font-size: 1.4em;
+ }
+ h3 {
+     font-size: 1.5em;
+ }
+ h2 {
+     font-size: 1.8em;
+ }
+ p {
+     line-height: 1.2;
+ }
+
+ a {
+    color: black;
+  }
+  a:hover {
+      color: darkred;
+      text-decoration: none;
+  }
+

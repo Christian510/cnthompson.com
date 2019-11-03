@@ -5,63 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="text/stylesheet" href="cnthompson.com/assets/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
 </head>
 
 <body>
-    <div id="headerName">
-        <h2>Christian Thompson</h2>
-    </div>
-
-    <!--Navigation Bar-->
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <!-- <span class="icon-bar"></span> -->
-                </button>
+    <!------ Header ------>
+    <section>
+            <div id="headerName">
+                <h2>Christian Thompson</h2>
             </div>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+    
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="about.html" rel="nofollow" class="bold">About</a></li>
+                            <li><a href="index.html">Resume</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <!-- <li><a href="photoresume.html">Photography</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!------- End Header ------->
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="about.html" rel="nofollow" class="bold">About</a></li>                    
-                    <li><a href="index.html">Resume</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <!-- <li><a href="#">Photography</a></li> -->
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--End Navigation Bar-->
-
-    <div class="container" id="wrapper">
+    <section class="container" id="wrapper">
         <div class="row">
             <div class="col-sm-4 col-md-4">
                 <img src="images/resume_pic_2.png" alt="Christian Thompson" height="200">
             </div>
             <div class="col-sm-8 col-md-8" id="aboutMe">
                 <p>Hi, my name is Christian.</p>
-                <p>Rock <span id="space">Climber Backcountry</span> <span id="space">skier Explorer Foodie Aspiring</span> web developer</p>
-                <p>I recently attended <a id="devMtn" href="https://devmountain.com/" target="blank">DevMountain's</a> Fall 2018/19 Web Development Bootcamp. We focused on learning javascript, Reactjs, Node.js, SQL, and much more.  We built lots of projects and learned a great deal.</p>
-                <p>My wife and I currently live in Boise, ID. We moved to Boise from Sandpoint, a small resort town in North Idaho. For 10 years I was a professional Realtor. In 2010 I founded and managed a non-profit indoor climbing gym.</p>
+                <p>Rock <span id="space">Climber Backcountry</span> <span id="space">Skier Explorer Foodie
+                        </span> Web Developer</p>
+                <p>I recently attended <a id="devMtn" href="https://devmountain.com/" target="blank">DevMountain's</a>
+                    Fall 2018/19 Web Development Bootcamp. We focused on learning javascript, Reactjs, Node.js, SQL, and
+                    much more. We built lots of projects and learned a great deal.</p>
+                <p>My wife and I currently live in Boise, ID. We moved to Boise from Sandpoint, a small resort town in
+                    North Idaho. For 10 years I was a professional Realtor. In 2010 I founded and managed a non-profit
+                    indoor climbing gym.</p>
                 <p>I’m seeking an opportunity work with a company that reflects some of my life passions and goals.</p>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- --------------Footer--------------------- -->
     <nav class="navbar navbar-default navbar-bottom" id="center">
         <div class="container">
-            <a href="https://github.com/Christian510" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            <a href="https://github.com/Christian510" target="_blank"><i class="fa fa-github fa-2x"
+                    aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/christian510" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
             <a href="https://www.instagram.com/christiant510/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
             <a href="mailto:christian510@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
@@ -71,9 +83,8 @@
 
     <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
     <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" -->
-        <!-- crossorigin="anonymous"></script> -->
-    <script  type="text/javascript" src="assets/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/bootstrap.min.js"></script>
 </body>
 
 </html>

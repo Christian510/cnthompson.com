@@ -105,23 +105,23 @@ a:hover {
 /*End Associations & Certificates*/
 
 /*Footer Styling*/
-.fa {
+/* .fa {
     color: #161212;
     padding-left: 15px;
     padding-right: 15px;
 }
 .fa:hover {
     color: darkred;
-}
-#center {
+} */
+/* #center {
   float: none;
   vertical-align: top;
   text-align: center;
-}
+} */
 /*End Footer Styling*/
 
 /*Media Queries*/
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .left {
         text-align: left;
     }
@@ -144,10 +144,10 @@ a:hover {
     p {
         line-height: 1em;
     }
-}
+} */
 
 /*For Print*/
-@media print {
+/* @media print {
   .container {
     width: auto;
     margin: 0,0;
@@ -155,4 +155,4 @@ a:hover {
   #udemy {
       font-weight: 300;
   }
-}
+} */
