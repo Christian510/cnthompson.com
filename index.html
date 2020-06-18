@@ -7,11 +7,13 @@
     <title>Christian's Resume</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
- 
+
     <!--<link rel="stylesheet" type="text/css" media="print" href="print.css">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assets/css/global.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/header.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/resume.css">
@@ -21,31 +23,31 @@
 
 <body>
     <section>
-            <div id="headerName">
-                    <h2>Christian Thompson</h2>
+        <div id="headerName">
+            <h1>Christian Thompson</h1>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-                <nav class="navbar navbar-default">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-            
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li><a href="about.html">About</a></li>                   
-                                <li><a href="index.html" rel="nofollow" class="bold">Resume</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <!-- <li><a href="photoresume.html">Photography</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html" rel="nofollow" class="bold">Resume</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <!-- <li><a href="photoresume.html">Photography</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </section>
 
     <!--Main Content-->
@@ -55,7 +57,7 @@
             <div class="col-sm-6 col-md-6">
                 <div id="ed">
                     <div class="left">
-                        <h2>Education</h2>
+                        <h1>Education</h1>
                     </div>
                     <div class="left">
                         <div class="padBottom">
@@ -75,15 +77,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="left" id="lineH">
+                <div class="left">
                     <h2>Skills</h2>
-                    <div class="lineH">
+                    <div>
                         <p>Bootstrap</p>
-                        <p>HTML & CSS</p>
-                        <p>Sass</p>
+                        <p>HandlebarsJs</p>
+                        <p>HTML / CSS</p>
+                        <p>SASS / SCSS</p>
+                        <p>Python</p>
                         <p>Javascript</p>
-                        <p>Reactjs</p>
-                        <p>Node.js</p>
+                        <p>ReactJs</p>
+                        <p>NodeJs</p>
                         <p>Express</p>
                         <p>PostgreSQL</p>
                         <p>SEO</p>
@@ -98,30 +102,42 @@
             <div class="col-sm-6 col-md-6">
                 <div class="right">
                     <div class="padBottom">
-                        <h2>Work History</h2>
-                        <h3>Clearview Elite</h3>
-                        <h4>Director of Sales 2017 - 2018</h4>
-                        <p>My primary role was to generate new leades for the company.</p>
-                        <p>Developed an array of phone and email campaigns for each unique target market.</p>
-                        <p>Found solutions to managing customer data and marketing campaigns.</p>
-                        <p>Worked closely with the owner to refine the company brand messaging.</p>
-                        <p>Was instramental in the role out of new services.</p>
-                        <p>Write phone and email campaigns.</p>
+                        <h1>Work History</h1>
+                        <h3>UX Toolbox</h3>
+                        <h4>Web Development<a class="tilde"> ~ </a>March 2020 - Present</h4>
+                        <ul>
+                            <li>Write clean and testable code</li>
+                            <li>Create responsive web layouts using HTML/CSS best practices</li>
+                            <li>Integrate data from various back-end services and databases</li>
+                            <li>Cooperate with UX/UI designers to match visual design intent</li>
+                            <li>Clearly communicate with clients</li>
+                        </ul>
                     </div>
                     <div class="padBottom">
-                        <h3>Century21 RiverStone</h3>
-                        <h4>Residential Real Estate Professional 2007 - 2016</h4>
-                        <p>Specialized in listing and selling residential, waterfront, and recreational homes and land.</p>
-                        <p>Provide clients with detailed market analysis.</p>
-                        <p>Worked with clients to solve complex problems regarding federal and state land use rules.</p>
-                        <p>Effectively managed complex residential and commercial real estate sales.</p>
+                        <h3>Clearview Elite</h3>
+                        <h4>Director of Sales<a class="tilde"> ~ </a>April 2017 - July 2018</h4>
+                        <ul>
+                            <li> Generated new leads</p>
+                            <li>Developed an array of phone and email campaigns for each unique target market</li>
+                            <li>Managed customer data and marketing campaigns with HubSpot</li>
+                            <li>Worked closely with the owner to refine the company brand messaging.</li>
+                            <li>Matched our services with the right target markets</li>
+                        </ul>
+
                     </div>
                     <div class="padBottom">
                         <h3>Sandpoint Rock Gym</h3>
-                        <h4>Founder and President 2010-2015</h4>
-                        <p>Organized a diverse group motivated community members and rock climbers to design, fund and build one of the only non-profit indoor climbing gyms in the US.</p>
-                        <p>I had no experience in starting a climbing gym. I needed to learn best practices in gym safety, maintenance, management, route setting, insurance, and more. I attended industry conferences and met with local experts in my community to gain the knowledge necessary to be succesful.</p>
-                        <p>One of the biggest lessons I learned was how to manage people and personalities; how to make sure everyone was heard, and ensure everyone was included and their contributions validated.</p>
+                        <h4>Founder and President<a class="tilde"> ~ </a> 2010-2015</h4>
+                        <ul>
+                            <li>Motivated climbers in the community to brainstorm, design, and fund the building of a
+                                community bouldering gym.</li>
+                            <li>Negotiated deals with local and regional companies to provide the best value possible
+                                for
+                                members</li>
+                            <li>Organized fundraising events</li>
+                            <li>Promoted the gym to attract new memberships</li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
@@ -170,4 +186,5 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
