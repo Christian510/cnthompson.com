@@ -13,15 +13,27 @@ app.use(express.static(path.join(__dirname, 'public')));
 console.log(path.join(__dirname, 'public', 'assets'))
 
 app.get('/', (req, res, next) => {
-    res.render('about');
+    res.render('about', {
+        pageTitle: "About",
+        path: "/",
+        activeAbout: true
+    });
 });
 
 app.get('/resume', (req, res, next) => {
-    res.render('resume');
+    res.render('resume', {
+        pageTitle: "Resume",
+        path: "/resume",
+        activeResume: true
+    });
 })
 
 app.get('/portfolio', (req, res, next) => {
-    res.render('portfolio');
+    res.render('portfolio', {
+        pageTitle: "Portfolio",
+        path: "/portfolio",
+        activePortfolio: true
+    });
 });
 
 

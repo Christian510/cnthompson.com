@@ -4,7 +4,7 @@ of self directed learning.  For me this is still a work in progress
 as I learn more I will come back to my code and condinue refactor and refine it*/ 
 
 /*Main Content Styling*/
-#wrapper {
+#aboutWrapper {
   min-height: 500px;
   display: flex;
   align-items: center;
@@ -18,7 +18,6 @@ img {
 }
 #aboutMe {
     border-left: 5px solid darkred;
-    /* font-family: 'Open Sans Condensed', sans-serif; */
     font-weight: 300; 
     font-size: 1.2em;
 }
@@ -29,14 +28,14 @@ a:hover {
 #space {
     word-spacing: .5em;
 }
-li:active {
+/* li:active {
     color: #000;
     /* font-weight: bold; */
-}
-li:visited {
-    color: #000;
+/* } */
+/* li:visited {
+    color: #000; */
     /* font-weight: bold; */
-}
+/* } */
 .link {
     color: black;
     font-style: italic;
@@ -69,7 +68,7 @@ li:visited {
     img {
             margin: 25px auto;
         }
-    #wrapper {
+    #aboutWrapper {
         padding-bottom: 20px;
     }
     #aboutMe {

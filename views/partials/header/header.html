@@ -18,10 +18,10 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="index.html" rel="nofollow" class="bold">Resume</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <!-- <li><a href="photoresume.html">Photography</a></li> -->
+                        <li><a class="{{#if activeAbout}}active{{/if}}" rel="{{#if activeAbout}}nofollow{{/if}}" href="/">About</a></li>
+                        <li><a class="{{#if activeResume }} active {{/if}}" href="/resume" rel="{{#if activeResume }}nofollow{{/if}}">Resume</a></li>
+                        <li><a class="{{#if activePortfolio }} active {{/if}}" rel="{{#if activePortfolio}}nofollow{{/if}}" href="/portfolio">Portfolio</a></li>
+                        <!-- <li><a href="/photoresume.html">Photography</a></li> -->
                     </ul>
                 </div>
             </div>

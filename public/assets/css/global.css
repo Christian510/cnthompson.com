@@ -1,6 +1,17 @@
+
+
+/* background: #616161;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to bottom, #9bc5c3, #616161);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to bottom, #9bc5c3, #616161); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* White Gradient
+/*background: #ECE9E6;   fallback for old browsers */
+/*background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);   Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 body {
     margin: 0;
-    background: #fff2cc;
+    background: #FFFFF0;
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
