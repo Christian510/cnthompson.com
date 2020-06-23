@@ -13,8 +13,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 console.log(path.join(__dirname, 'public', 'assets'))
 
 app.get('/', (req, res, next) => {
+    res.render('about');
+});
+
+app.get('/resume', (req, res, next) => {
     res.render('resume');
 })
+
+app.get('/portfolio', (req, res, next) => {
+    res.render('portfolio');
+});
 
 
 
