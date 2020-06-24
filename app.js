@@ -15,6 +15,7 @@ console.log(path.join(__dirname, 'public', 'assets'))
 app.get('/', (req, res, next) => {
     res.render('about', {
         pageTitle: "About",
+        styles: "about.css",
         path: "/",
         activeAbout: true
     });
@@ -23,6 +24,7 @@ app.get('/', (req, res, next) => {
 app.get('/resume', (req, res, next) => {
     res.render('resume', {
         pageTitle: "Resume",
+        styles: "resume.css",
         path: "/resume",
         activeResume: true
     });
@@ -31,6 +33,7 @@ app.get('/resume', (req, res, next) => {
 app.get('/portfolio', (req, res, next) => {
     res.render('portfolio', {
         pageTitle: "Portfolio",
+        styles: "portfolio.css",
         path: "/portfolio",
         activePortfolio: true
     });

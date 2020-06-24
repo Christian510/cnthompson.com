@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "school": "DevMoutain",
+        "degree": "Web Development Bootcamp",
+        "start": "November 2018",
+        "end": "May 2019"
+    },
+    {
+        "id": 1,
+        "school": "Boise State University",
+        "degree": "Literature",
+        "start": "August 1995",
+        "end": "May 1997"
+    },
+    {
+        "id": 2,
+        "school": "North Idaho College",
+        "degree": "AS Biology",
+        "start": "Auguest 1992",
+        "end": "May 1995"
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "id": 0,
+        "company": "UX Toolbox",
+        "jobTitle": "Web Development",
+        "start_date":"March 2020",
+        "end_date": "Present",
+        "bullets":{
+            "1": "Write clean and testable code", 
+            "2": "Create responsive web layouts using HTML/CSS best practices", 
+            "3": "Integrate data from various back-end services and databases", 
+            "4": "Cooperate with UX/UI designers to match visual design intent", 
+            "5": "Clearly communicate with clients"
+        }
+    },
+    {
+        "id": 1,
+        "company": "Clearview Elite",
+        "jobTitle": "Director of Sales",
+        "start_date":"April 2017",
+        "end_date": "July 2018",
+        "bullets":{
+            "1": "Generated new leads", 
+            "2": "Developed an array of phone and email campaigns for each unique target market", 
+            "3": "Managed customer data and marketing campaigns with HubSpot", 
+            "4": "Worked closely with the owner to refine the company brand messaging", 
+            "5": "Matched our services with the right target markets"
+        }
+    },
+    {
+        "id": 2,
+        "company": "Sandpoint Rock Gym",
+        "jobTitle": "Founder and President",
+        "start_date":"January 2010",
+        "end_date": "August 2015",
+        "bullets":{
+            "1": "Motivated climbers in the community to brainstorm, design, and fund the building of a community bouldering gym", 
+            "2": "Negotiated deals with local and regional companies to provide the best value possible for members", 
+            "3": "Organized fundraising events", 
+            "4": "Promoted the gym to attract new memberships"
+        }
+    }
+]

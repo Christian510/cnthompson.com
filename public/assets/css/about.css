@@ -1,9 +1,5 @@
-/*Welcome!  Please do checkout out my handy work. 
-This is my first website and represents a few months 
-of self directed learning.  For me this is still a work in progress
-as I learn more I will come back to my code and condinue refactor and refine it*/ 
 
-/*Main Content Styling*/
+/* --- About Page ------------------------- */
 #aboutWrapper {
   min-height: 500px;
   display: flex;
@@ -11,7 +7,7 @@ as I learn more I will come back to my code and condinue refactor and refine it*
   justify-content: center;
   margin: 0 40px 0 40px;
   }
-img {
+#profileImg {
     border-radius: 50%;
     display: block;
     margin: 20px 20% 50px auto; 
@@ -22,20 +18,10 @@ img {
     font-size: 1.2em;
 }
 
-a:hover {
-    text-decoration: none;
-}
 #space {
     word-spacing: .5em;
 }
-/* li:active {
-    color: #000;
-    /* font-weight: bold; */
-/* } */
-/* li:visited {
-    color: #000; */
-    /* font-weight: bold; */
-/* } */
+
 .link {
     color: black;
     font-style: italic;
@@ -47,9 +33,8 @@ a:hover {
 #UX {
     font-weight: 600;
 }
-/*End Main Content Styling*/
 
-/*Media queries*/
+/* --- Media queries --------------------*/
 @media (min-width: 992px) {
         
 }
@@ -65,14 +50,16 @@ a:hover {
     }
 }
 @media (max-width: 768px) {
-    img {
+    #profileImg {
             margin: 25px auto;
         }
     #aboutWrapper {
         padding-bottom: 20px;
     }
-    #aboutMe {
+    #aboutMe, p {
         border-left: none;
+        font-size: 14px;
+        line-height: 1.2;
     }
  
 }

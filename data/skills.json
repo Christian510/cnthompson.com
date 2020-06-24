@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Javascript",
+        "id": 1
+    },
+    {
+        "name": "HandlebarsJs",
+        "id": 1
+    },
+    {
+        "name": "PostgreSQL",
+        "id": 1
+    },
+    {
+        "name": "SASS/SCSS",
+        "id": 2
+    },
+    {
+        "name": "HTML/CSS",
+        "id": 3
+    },
+    {
+        "name": "Python",
+        "id": 4
+    },
+    {
+        "name": "ReactJs",
+        "id": 5
+    },
+    {
+        "name": "NodeJs",
+        "id": 6
+    },
+    {
+        "name": "Express",
+        "id": 7
+    },
+    {
+        "name": "SEO",
+        "id": 8
+    },
+    {
+        "name": "Photoshop",
+        "id": 9
+    },
+    {
+        "name": "MicroSoft Office",
+        "id": 10
+    },
+    {
+        "name": "Mon-Profit Management",
+        "id": 11
+    },
+    {
+        "name": "MicroSoft Office",
+        "id": 10
+    }
+]
