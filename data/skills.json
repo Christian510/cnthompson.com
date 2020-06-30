@@ -1,7 +1,7 @@
 [
     {
         "name": "Javascript",
-        "id": 1
+        "id": 0
     },
     {
         "name": "HandlebarsJs",
@@ -9,39 +9,39 @@
     },
     {
         "name": "PostgreSQL",
-        "id": 1
-    },
-    {
-        "name": "SASS/SCSS",
         "id": 2
     },
     {
-        "name": "HTML/CSS",
+        "name": "SASS/SCSS",
         "id": 3
     },
     {
-        "name": "Python",
+        "name": "HTML/CSS",
         "id": 4
     },
     {
-        "name": "ReactJs",
+        "name": "Python",
         "id": 5
     },
     {
-        "name": "NodeJs",
+        "name": "ReactJs",
         "id": 6
     },
     {
-        "name": "Express",
+        "name": "NodeJs",
         "id": 7
     },
     {
-        "name": "SEO",
+        "name": "Express",
         "id": 8
     },
     {
-        "name": "Photoshop",
+        "name": "SEO",
         "id": 9
+    },
+    {
+        "name": "Photoshop",
+        "id": 10
     },
     {
         "name": "MicroSoft Office",

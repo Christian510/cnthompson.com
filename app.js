@@ -2,6 +2,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const express = require('express');
 const expHbs = require('express-handlebars');
+const Data = require('./models/getData');
 
 
 const app = express();
@@ -22,11 +23,17 @@ app.get('/', (req, res, next) => {
 });
 
 app.get('/resume', (req, res, next) => {
-    res.render('resume', {
-        pageTitle: "Resume",
-        styles: "resume.css",
-        path: "/resume",
-        activeResume: true
+    Data.fetchData(allData => {
+        // console.log(allData.education);
+        res.render('resume', {
+            pageTitle: "Resume",
+            styles: "resume.css",
+            path: "/resume",
+            activeResume: true,
+            skills: allData.skills,
+            education: allData.education,
+            wh: allData.work_history
+    })
     });
 })
 
@@ -38,8 +45,6 @@ app.get('/portfolio', (req, res, next) => {
         activePortfolio: true
     });
 });
-
-
 
 const port = 3000;
 app.listen(port, () => console.log(`Listening on port ${port}`));

@@ -8,40 +8,20 @@
                     <h1>Education</h1>
                 </div>
                 <div class="left">
+                    {{#each education}}
                     <div class="padBottom">
-                        <h3>Boise State University</h3>
-                        <h4>BA Literature</h4>
-                        <p>1995-1998</p>
+                        <h3>{{this.school}}</h3>
+                        <h4>{{this.degree}}</h4>
+                        <p>{{this.start}}-{{this.end}}</p>
                     </div>
-                    <div class="padBottom">
-                        <h3>North Idaho College</h3>
-                        <h4>AS Biology</h4>
-                        <p>1992-1995</p>
-                    </div>
-                    <div class="padBottom">
-                        <h3>DevMountain</h3>
-                        <h4>Web Development Bootcamp</h4>
-                        <p>2018/19 Cohort</p>
-                    </div>
-                </div>
+                    {{/each}}
             </div>
             <div class="left">
                 <h2>Skills</h2>
                 <div>
-                    <p>Bootstrap</p>
-                    <p>HandlebarsJs</p>
-                    <p>HTML / CSS</p>
-                    <p>SASS / SCSS</p>
-                    <p>Python</p>
-                    <p>Javascript</p>
-                    <p>ReactJs</p>
-                    <p>NodeJs</p>
-                    <p>Express</p>
-                    <p>PostgreSQL</p>
-                    <p>SEO</p>
-                    <p>Photoshop</p>
-                    <p>MicroSoft Office</p>
-                    <p>Non-Profit Management</p>
+                    {{#each skills}}
+                    <p>{{this.name}}</p>
+                    {{/each}}
                 </div>
             </div>
         </section>
@@ -49,11 +29,13 @@
         <!--Rightside of Container: Work History-->
         <section class="col-sm-6 col-md-6">
             <div class="right">
+                <h1>Work History</h1>
+                {{#each wh}}
                 <div class="padBottom">
-                    <h1>Work History</h1>
-                    <h3>UX Toolbox</h3>
-                    <h4>Web Development<a class="tilde"> ~ </a>March 2020 - Present</h4>
+                    <h3>{{this.company}}</h3>
+                    <h4>{{this.jobTitle}}<a class="tilde"> ~ </a>{{this.start_date}} - {{this.end_date}}</h4>
                     <ul>
+                        {{#each skills}}
                         <li>Write clean and testable code</li>
                         <li>Create responsive web layouts using HTML/CSS best practices</li>
                         <li>Integrate data from various back-end services and databases</li>
@@ -61,6 +43,7 @@
                         <li>Clearly communicate with clients</li>
                     </ul>
                 </div>
+                {{/each}}
                 <div class="padBottom">
                     <h3>Clearview Elite</h3>
                     <h4>Director of Sales<a class="tilde"> ~ </a>April 2017 - July 2018</h4>
