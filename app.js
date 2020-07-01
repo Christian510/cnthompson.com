@@ -24,7 +24,19 @@ app.get('/', (req, res, next) => {
 
 app.get('/resume', (req, res, next) => {
     Data.fetchData(allData => {
-        // console.log(allData.education);
+            let allDuties = allData.work_history.map( (jd, i) => jd.job_duties );
+            function jobDescriptions() {
+                for (i = 0; i < allDuties.length; i++) {
+                    let eachJD = allDuties[i].length;
+                    console.log(`length of each jd: ${eachJD}`)
+                    for (j = 0; j < eachJD.length; j++) {
+                        console.log(eachJD[j]);
+                        // need to stop iteration when the length of eachJD is reached and move to the next job.
+                    }
+                }
+            }
+            jobDescriptions();
+
         res.render('resume', {
             pageTitle: "Resume",
             styles: "resume.css",
@@ -32,7 +44,8 @@ app.get('/resume', (req, res, next) => {
             activeResume: true,
             skills: allData.skills,
             education: allData.education,
-            wh: allData.work_history
+            workHistory: allData.work_history,
+            // jobDuties: jDuties
     })
     });
 })

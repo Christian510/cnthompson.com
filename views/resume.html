@@ -30,21 +30,18 @@
         <section class="col-sm-6 col-md-6">
             <div class="right">
                 <h1>Work History</h1>
-                {{#each wh}}
+                {{#each workHistory}}
                 <div class="padBottom">
                     <h3>{{this.company}}</h3>
                     <h4>{{this.jobTitle}}<a class="tilde"> ~ </a>{{this.start_date}} - {{this.end_date}}</h4>
                     <ul>
-                        {{#each skills}}
-                        <li>Write clean and testable code</li>
-                        <li>Create responsive web layouts using HTML/CSS best practices</li>
-                        <li>Integrate data from various back-end services and databases</li>
-                        <li>Cooperate with UX/UI designers to match visual design intent</li>
-                        <li>Clearly communicate with clients</li>
+                        {{#each jobDuties}}
+                        <li>{{this}}</li>
+                        {{/each}}
                     </ul>
                 </div>
                 {{/each}}
-                <div class="padBottom">
+                <!-- <div class="padBottom">
                     <h3>Clearview Elite</h3>
                     <h4>Director of Sales<a class="tilde"> ~ </a>April 2017 - July 2018</h4>
                     <ul>
@@ -54,9 +51,8 @@
                         <li>Worked closely with the owner to refine the company brand messaging.</li>
                         <li>Matched our services with the right target markets</li>
                     </ul>
-
-                </div>
-                <div class="padBottom">
+                </div> -->
+                <!-- <div class="padBottom">
                     <h3>Sandpoint Rock Gym</h3>
                     <h4>Founder and President<a class="tilde"> ~ </a> 2010-2015</h4>
                     <ul>
@@ -68,8 +64,7 @@
                         <li>Organized fundraising events</li>
                         <li>Promoted the gym to attract new memberships</li>
                     </ul>
-
-                </div>
+                </div> -->
             </div>
         </section>
     </div>

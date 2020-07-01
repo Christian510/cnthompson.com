@@ -63,7 +63,6 @@ const getWH = cb => {
 }
 
 module.exports = class Data {
-
     static fetchData(cb) {
         getData(cb);
     }
